@@ -14,7 +14,7 @@
 
 
     <!-- Bootstrap core CSS -->
-<link href="{{ asset('assets/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/login/dist/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {

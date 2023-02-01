@@ -21,7 +21,7 @@
     <form method="POST" action="{{ route('login') }}">
         @csrf
         <img class="mb-4" src="https://cdn-icons-png.flaticon.com/512/7141/7141726.png" alt="" width="72" height="57" style="margin:auto">
-        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+        <h1 class="h5 mb-3 fw-normal text-uppercase" style="color: #1B2E69">Please Login Account</h1>
         @if ($errors->any())
         <span class="text-danger">
             @foreach ($errors->all() as $error)
@@ -49,7 +49,7 @@
                         </a>
                     @endif --}}
 
-        <button type="submit" class="btn btn-primary btn-lg w-100" style="background-color: #1B2E69">Sign in</button>
+        <button type="submit" class="btn btn-primary btn-sm w-100" style="background-color: #1B2E69">Login</button>
         <p class="mt-5 mb-3 text-muted">&copy; 2023-Application</p>
     </form>
 </div>
